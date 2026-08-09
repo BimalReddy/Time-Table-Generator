@@ -1,0 +1,89 @@
+{
+  "days_per_week": 5,
+  "periods_per_day": 5,
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Room 101 (General)",
+      "capacity": 30,
+      "is_lab": false
+    },
+    {
+      "id": "R2",
+      "name": "Science Lab A",
+      "capacity": 25,
+      "is_lab": true
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Mr. Anderson (Math)",
+      "max_periods_per_week": 20
+    },
+    {
+      "id": "T2",
+      "name": "Mrs. Smith (Science)",
+      "max_periods_per_week": 20
+    },
+    {
+      "id": "T3",
+      "name": "Mr. Brown (History)",
+      "max_periods_per_week": 15
+    }
+  ],
+  "class_groups": [
+    {
+      "id": "C1",
+      "name": "Grade 10A",
+      "student_count": 20
+    },
+    {
+      "id": "C2",
+      "name": "Grade 10B",
+      "student_count": 22
+    }
+  ],
+  "lessons": [
+    {
+      "id": "L1",
+      "subject_name": "Math",
+      "teacher_id": "T1",
+      "class_group_id": "C1",
+      "periods_per_week": 4,
+      "requires_lab": false
+    },
+    {
+      "id": "L2",
+      "subject_name": "Science",
+      "teacher_id": "T2",
+      "class_group_id": "C1",
+      "periods_per_week": 3,
+      "requires_lab": true
+    },
+    {
+      "id": "L3",
+      "subject_name": "History",
+      "teacher_id": "T3",
+      "class_group_id": "C1",
+      "periods_per_week": 3,
+      "requires_lab": false
+    },
+    {
+      "id": "L4",
+      "subject_name": "Math",
+      "teacher_id": "T1",
+      "class_group_id": "C2",
+      "periods_per_week": 4,
+      "requires_lab": false
+    },
+    {
+      "id": "L5",
+      "subject_name": "Science",
+      "teacher_id": "T2",
+      "class_group_id": "C2",
+      "periods_per_week": 3,
+      "requires_lab": true
+    }
+  ]
+}
