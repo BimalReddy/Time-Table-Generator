@@ -17,8 +17,6 @@ This backend service takes a list of teachers, classrooms, classes, and lesson r
 ---
 
 ## 📂 Project Structure
-
-```text
 school_timetable/
 ├── app/
 │   ├── __init__.py
