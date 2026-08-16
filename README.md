@@ -85,7 +85,7 @@ python main.py
 
 *(Alternatively, you can run: `uvicorn main:app --reload`)*
 
-You should see an output indicating the server is running on `http://127.0.0.1:8000` or `http://0.0.0.0:8000`.
+You should see an output indicating the server is running on `http://localhost:8000`.
 
 ---
 
